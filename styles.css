@@ -1,0 +1,102 @@
+* {
+    background-color: rgb(147, 189, 243);
+}
+
+.center{
+    text-align: center;
+    font-family: Papyrus;
+    font-size: 35px;
+}
+
+.recipes{
+    text-align: center;
+    font-size: 20px;
+    font-family: Papyrus;
+
+}
+
+#French-Toast{
+    align-items: center;
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 15.75%;
+    border-radius: 25px;
+  }
+
+.overlay {
+    align-items: center;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    border-radius: 25px;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+    align-items: center;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    font-family: Copperplate;
+    background-color: #008CBA;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+#Pancake{
+    border-radius: 25px;
+    width: 300px;
+    height: auto;
+    width: 22%;
+    
+}
+
+.pancakes{
+    display: flex;
+    justify-content: center;
+    width: 300;
+    margin-top: 5;
+}
+
+
+#scrambled-eggs{
+    border-radius: 25px;
+    height: 300px;
+    width: 15%;
+    position: relative;
+    bottom: 280px;
+    right: 50px;
+    
+}
+
+.eggs{
+    text-align: right;
+    top: 10;
+}
+#eggs1{
+    border-radius: 25px;
+    width: 300px;
+    height: auto;
+}
